@@ -11,7 +11,7 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-  <title>archives | 是白不是黑</title>
+  <title>是白不是黑</title>
 
   <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
   <link rel="stylesheet" href="https://at.alicdn.com/t/font_1911880_c1nvbyezg17.css">
@@ -453,123 +453,481 @@
     
 </header>
         <!-- 内容区域 -->
-        <div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"></div>
-<div class="bg-light-floor-archive" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -3;"></div>
-<div class="archive-header" style="background-image:url('https://pic1.zhimg.com/80/v2-1414b3a4b205e19060db18a20d08723a_1440w.jpg?source=1940ef5c')">
-  <div class="archive-header-title">
-    archive
-  </div>
-  <div class="archive-header-desc">
+        
+ <!-- prismjs 代码高亮 -->
+ 
+
+
+<div class="bg-dark-floor" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -1;"></div>
+
+
+  <!-- 文章详情页顶部图片和标题 -->
+
+
+
+
+<div class="post-detail-header" id="thumbnail_canvas" style="background-repeat: no-repeat; background-size: cover; 
+  background-position: center center;position: relative;background-image:url('/medias/1.jpg')">
+  <div class="post-detail-header-mask"></div>
+  <canvas id="header_canvas"style="position:absolute;bottom:0;pointer-events:none;"></canvas>
   
-  <span class="title" id="archive-header-desc"></span>
-  <script>
-  function typedFn() {
-    const el = '#archive-header-desc';
-    const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
-    var typed = new Typed(el, {
-      strings: [desc],
-      startDelay: 100,
-      typeSpeed: 100,
-      loop: true,
-      backSpeed: 50,
-      showCursor: true
-    });
-  }
-  typedFn();
-</script>
-  
-  </div>
-  <div class="mask-box"></div>
-</div>
-
-<div class="archive-video">
-  <video class="full-video" autoplay loop muted>
-      <source style="width: 100%;height: 100vh;" src="/">
-  </video>
-  <div class="video-header-title">
-    archive
-  </div>
-  <div class="video-header-desc">
-  
-      <span class="title" id="archive-video-header-desc"></span>
-      <script>
-  function typedFn() {
-    const el = '#archive-video-header-desc';
-    const type = 'archive';
-    let desc = '愿你如风，被人温柔以待'
-    var typed = new Typed(el, {
-      strings: [desc],
-      startDelay: 100,
-      typeSpeed: 100,
-      loop: true,
-      backSpeed: 50,
-      showCursor: true
-    });
-  }
-  typedFn();
-</script>
-      
-  </div>
-  <div class="mask-box"></div>
-</div>
-
-<!-- hash算法 -->
-
-
-<div class="archive-main">
-  <section class="archive">
-    <div class="archive-content">
-      <ul class="post-archive">
+  <div class="post-detail-header_info-box">
+    <div class="title-box">
+      <span class="title">
         
-        
-          
-            
-            <div class="year" data-aos="zoom-in-up">
-                <div class="bullet"></div>
-                <a href="/archives/2022">2022</a>
-            </div>
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/11/03/xss%E8%B7%A8%E7%AB%99%E6%94%BB%E5%87%BB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">11-03</span>
-              </div>
-              <a class="post-title" href="/2022/11/03/xss%E8%B7%A8%E7%AB%99%E6%94%BB%E5%87%BB%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"></a>
-            </div>
-          </li>
-        
-          
-          <li class="post-item" data-aos="fade-left">
-            
-            <div class="post-img-box">
-              <a href="/2022/11/02/SQL%E6%B3%A8%E5%85%A5%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20/" class="post-img " style="background-size: cover; 
-                background-position: center center;">
-                <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="">
-              </a>
-            </div>
-            <div class="post-date-title">
-              <div>
-                <span class="post-date">11-02</span>
-              </div>
-              <a class="post-title" href="/2022/11/02/SQL%E6%B3%A8%E5%85%A5%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20/"></a>
-            </div>
-          </li>
-        
-      </ul>
+      </span>
     </div>
-  </section>
-  <div class="w-70">
+    
+    
+      
+        <span class="post-detail-header_date">
+          <i class="fas fa-calendar"></i> Published in：2022-11-03 |
+        </span>
+      
+
+      
+
+      
     
   </div>
+  
+  
+    <script src="/js/bubble/bubble.js"></script>
+  
 </div>
+
+
+
+
+
+<div class="post-detail-content row justify-position" 
+  style="padding-top: 0px;">
+  <div class="main-content">
+    <article class="post post-detail">
+      <div class="post-content">
+        <h2 id="xss跨站脚本攻击"><a class="markdownIt-Anchor" href="#xss跨站脚本攻击">#</a> xss（跨站脚本攻击）</h2>
+<h6 id="同源策略"><a class="markdownIt-Anchor" href="#同源策略">#</a> 同源策略</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">同源策略是一种约定,是一种安全思想,是浏览器最核心最基本的安全功能.</span><br><span class="line">JavaScript的同源要比较 协议,域名,端口 三种,三者完全相同才是同源</span><br></pre></td></tr></table></figure>
+<h6 id="跨站脚本攻击xss"><a class="markdownIt-Anchor" href="#跨站脚本攻击xss">#</a> 跨站脚本攻击 XSS:</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">XSS的简介:</span><br><span class="line">恶意攻击者向web页面插入恶意JavaScript脚本代码,当用户浏览该页面时,嵌入其中web里面的JavaScript代码会被执行,达到恶意攻击用户的目的</span><br><span class="line"></span><br><span class="line">跨站:浏览器特性,因为大多数xss攻击采用嵌入一段远程或者第三方域上的脚本资源</span><br><span class="line">脚本:主要有两个JavaScript和ActionScript</span><br><span class="line"></span><br><span class="line">XSS原理:</span><br><span class="line">用户提交的数据没有过滤或过滤不严格,输出到网页中,导致可以构造执行JavaScript代码,或者修改网页内容.</span><br><span class="line"></span><br><span class="line">XSS的危害:</span><br><span class="line">1.获取用户或管理员的Cookie</span><br><span class="line">2.网站挂马</span><br><span class="line">3.有局限性的键盘记录</span><br><span class="line">4.XSS蠕虫  具有自我传播能力的XSS攻击</span><br></pre></td></tr></table></figure>
+<h6 id="xss跨站脚本攻击最终危害是获取用户或管理员的cookie"><a class="markdownIt-Anchor" href="#xss跨站脚本攻击最终危害是获取用户或管理员的cookie">#</a> xss 跨站脚本攻击最终危害是获取用户或管理员的 cookie</h6>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">所以保护好cookie的有效方法:</span><br><span class="line"></span><br><span class="line"><span class="number">1</span>.同源绑定一个域名下所有都可以访问分页,共享cookie</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>.后台绑定固定的IP访问,限制IP访问</span><br><span class="line"></span><br><span class="line"><span class="number">3</span>.http-only 禁止js脚本获取cookie</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h6 id="xss利用常用标签"><a class="markdownIt-Anchor" href="#xss利用常用标签">#</a> xss 利用常用标签</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">1.script</span><br><span class="line">&lt;script&gt;alert(&quot;xss&quot;) &lt;/script&gt;</span><br><span class="line"></span><br><span class="line">2.img</span><br><span class="line">&lt;ima src = &quot;x&quot; onerror=alert(&quot;xss&quot;);&gt;</span><br><span class="line"></span><br><span class="line">3.input</span><br><span class="line">&lt;input onfocus=&quot;alert(&#x27;xss&#x27;);&quot;&gt;</span><br><span class="line"></span><br><span class="line">4.details</span><br><span class="line">&lt;details ontoggle=&quot;alert(&#x27;xss&#x27;);&quot;&gt;</span><br><span class="line">&lt;details open ontoggle=&quot;alert(&#x27;xss&#x27;);&quot;&gt;  open属性触发ontoggle事件</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">5.svg</span><br><span class="line">&lt;svg onload= `alert(xss)`&gt;</span><br><span class="line"></span><br><span class="line">6.select</span><br><span class="line">&lt;select onfocus=alert(1)&gt;&lt;/select&gt;</span><br><span class="line">&lt;select onfocus=alert(1) autofocus&gt;</span><br><span class="line"></span><br><span class="line">7.iframe</span><br><span class="line"></span><br><span class="line">8.link</span><br></pre></td></tr></table></figure>
+<h6 id="javascript常用触发事件"><a class="markdownIt-Anchor" href="#javascript常用触发事件">#</a> JavaScript 常用触发事件</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">onclick：     元素上发生鼠标点击时触发。</span><br><span class="line"></span><br><span class="line">ondblclick：  元素上发生鼠标双击时触发。</span><br><span class="line"></span><br><span class="line">onmouseout：  当鼠标指针移出元素时触发。</span><br><span class="line"></span><br><span class="line">onmouseover ：当鼠标指针移动到元素上时触发。</span><br><span class="line"></span><br><span class="line">onload：      整个页面加载完以后执行</span><br><span class="line"></span><br><span class="line">unload：      这个事件在文档被完全卸载后触发</span><br><span class="line"></span><br><span class="line">keyup：       上键按键松开后触发</span><br><span class="line"></span><br><span class="line">keydown：     下键按键松开后触发</span><br></pre></td></tr></table></figure>
+<h6 id="xss分类"><a class="markdownIt-Anchor" href="#xss分类">#</a> XSS 分类</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">1.反射型XSS    非持久型XSS漏洞</span><br><span class="line">XSS代码出现在URL参数或者请求中,服务器接收参数并处理后,参数值出现在响应的HTML中,最后浏览器解析代码</span><br><span class="line"></span><br><span class="line">2.存储型XSS    持久型XSS漏洞</span><br><span class="line"> 和反射型不同,攻击脚本将被永久的存放在目标服务器的数据库或文件中</span><br><span class="line"> </span><br><span class="line">3.DOM XSS(特殊类型的反射型)     document节点XSS漏洞</span><br><span class="line">DOM XSS只在客户端,不会往服务器发送数据,也不会在url中显示,且恶意代码并不在返回页面源码中回显</span><br><span class="line">DOM型不用将恶意脚本传输到服务器在返回客户端，这就是DOM型和反射型、存储型的区别</span><br><span class="line"></span><br><span class="line">4.Flash XSS</span><br></pre></td></tr></table></figure>
+<h6 id="反射型xss的利用过程"><a class="markdownIt-Anchor" href="#反射型xss的利用过程">#</a> 反射型 XSS 的利用过程</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">xss配合点击劫持一起使用</span><br><span class="line">1.恶意攻击者发给受害者一个链接</span><br><span class="line">2.攻击者诱使受害者点开链接</span><br><span class="line">3.XSS代码被提交到有XSS漏洞的web应用程序上</span><br><span class="line">4.web应用程序没有过滤提交上来的数据或过滤不严格</span><br><span class="line">5.web应用程序输出用户提交上来的数据</span><br><span class="line">6.用户浏览器渲染返回的HTML页面,执行返回的JavaScript代码</span><br><span class="line">7.恶意的JavaScript代码在后台悄悄执行,获取用户信息</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h6 id="存储型xss的利用过程"><a class="markdownIt-Anchor" href="#存储型xss的利用过程">#</a> 存储型 XSS 的利用过程:</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">1.恶意的攻击者在存在XSS漏洞的网站提交一段XSS代码</span><br><span class="line">2.web应用程序接受提交数据,没有过滤或过滤不合格</span><br><span class="line">3.写入到数据库或者文件中</span><br><span class="line">4.受害者访问这个存在XSS恶意代码的页面时</span><br><span class="line">5.web应用程序从数据库或文件中读取之前恶意攻击者提交的代码</span><br><span class="line">6.web应用服务器返回这段数据</span><br><span class="line">7.受害者浏览器渲染返回的HTML页面,执行返回的JavaScript代码</span><br><span class="line">8.恶意的JavaScript代码在后台悄悄执行,获取用户信息</span><br></pre></td></tr></table></figure>
+<h6 id="对xss的防御"><a class="markdownIt-Anchor" href="#对xss的防御">#</a> 对 XSS 的防御</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1.对输入和URL参数的数据进行过滤</span><br><span class="line">黑名单:列出不能通过的字符数据</span><br><span class="line">白名单:列出只能通过的内容  htmlspecialchar</span><br><span class="line"></span><br><span class="line">2.对输出的进行编码</span><br><span class="line">输出数据之前对潜在的威胁的字符进行编码、转义</span><br></pre></td></tr></table></figure>
+<h6 id="实战利用"><a class="markdownIt-Anchor" href="#实战利用">#</a> 实战利用</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">在&lt;a&gt;&lt;/a&gt;标签中用下面的语句可直接利用不用闭合:</span><br><span class="line"></span><br><span class="line">JavaScript:alert(666)</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">top绕过如果括号里是整型1或其他就不需要双引号,如果是字符串需要双引号</span><br><span class="line"></span><br><span class="line">(alert)(1) </span><br><span class="line"></span><br><span class="line">a=alert,a(1</span><br><span class="line"></span><br><span class="line">[1].find(alert) </span><br><span class="line"></span><br><span class="line">top[&quot;al&quot;+&quot;ert&quot;](1) </span><br><span class="line"></span><br><span class="line">top[/al/.source+/ert/.source](1) </span><br><span class="line"></span><br><span class="line">al\u0065rt(1) </span><br><span class="line"></span><br><span class="line">top[&#x27;al\145rt&#x27;](1)</span><br><span class="line">#30不可随意改变</span><br><span class="line">top[8680439..toString(30)](666)</span><br></pre></td></tr></table></figure>
+<h6 id="xss的部分触发方式"><a class="markdownIt-Anchor" href="#xss的部分触发方式">#</a> xss 的部分触发方式</h6>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe onload=alert(&quot;xss&quot;);&gt;&lt;/iframe&gt;</span><br><span class="line"></span><br><span class="line">&lt;video&gt;&lt;source onerror=&quot;alert(1)&quot;&gt;</span><br><span class="line"></span><br><span class="line">&lt;audio src=x onerror=alert(&quot;xss&quot;);&gt;</span><br><span class="line"></span><br><span class="line">&lt;body/onload=alert(&quot;xss&quot;);&gt;</span><br></pre></td></tr></table></figure>
+
+      </div>
+      <div class="post-tags-categories">
+        
+      </div>
+      
+        <div class="copyright">
+  <ul class="post-copyright">
+    <li class="post-copyright-author">
+    <strong>author:  </strong>拿起键盘战斗</a>
+    </li>
+    <li class="post-copyright-link">
+    <strong>link:  </strong>
+    <a href="/2022/11/03/xss跨站攻击学习笔记/" target="_blank" title="">http://example.com/2022/11/03/xss跨站攻击学习笔记/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>Copyright notice:   </strong>
+      All articles on this website, unless otherwise stated, adopt <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">CC BY-NC-ND 4.0</a>
+      reprint policy. If reproduced, please indicate source!
+    </li>
+  </ul>
+<div>
+      
+    </article>
+    <!-- 上一篇文章和下一篇文章 -->
+    
+      <!-- 文章详情页的上一页和下一页 -->
+<div class="post-nav">
+
+
+
+
+
+  
+  <div class="post-nav-next post-nav-item">
+    <div class="post-nav-img" style="background-size: cover; 
+      background-position: center center;">
+      <img class="lazyload lazyload placeholder" src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" src="" alt="">
+    </div>
+    <a href="/2022/11/02/SQL%E6%B3%A8%E5%85%A5%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%20/" class="post-nav-link">
+      <div class="title">
+        Next: <i class="fas fa-angle-right"></i>
+        <div class="title-text"></div>
+      </div>
+      <!-- <div class="content">
+        # SQL 注入学习笔记
+# 注入注意事项:
+# 1. 闭合
+12一般用  &#x27;   &quot;  )  来闭
+      </div> -->
+    </a>
+  </div>
+
+</div>
+
+    
+    
+
+    <!-- 打赏 -->
+    
+      <div id="appDonate" class="post-donate">
+  <div id="donate_board" class="donate_bar center" ref="donate">
+    <a id="btn_donate" class="btn_donate" href="javascript:;" title="打赏" @click="showDialogDrawer()"></a>
+  </div>
+  <transition name="fade">
+    <div 
+      class="donate-box-mask"
+      v-cloak 
+      v-show="visible"
+      @click="cancelDialogDrawer()"
+    >
+    </div>
+  </transition>
+  <transition name="bounce">
+    <div class="donate-box" v-cloak v-show="visible">
+      <div class="donate-box_close">
+        <i class="fas fa-times" aria-hidden="true" @click="cancelDialogDrawer" pointer></i>
+      </div>
+      <div class="donate-box_title">
+        <h4>
+          你的赏识是我前进的动力
+        </h4>
+      </div>
+      <div class="donate-box_tab">
+        <div class="Alipay" pointer :class="{'active': tabActive === 'Alipay'}" @click="changeTabActive('Alipay')">
+          支付宝
+        </div>
+        <div class="WeChatpay" pointer :class="{'active': tabActive === 'WeChatpay'}" @click="changeTabActive('WeChatpay')">
+          微信
+        </div>
+      </div>
+      <div class="donate-box_img">
+        <div class="AlipayImg" v-show="tabActive === 'Alipay'">
+          <img src="/medias/1.jpg" class="lazyload placeholder" data-srcset="/medias/1.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="支付宝打赏" />
+        </div> 
+        <div class="WeChatpayImg" v-show="tabActive === 'WeChatpay'">
+          <img src="/medias/2.jpg" class="lazyload placeholder" data-srcset="/medias/2.jpg" srcset="https://pic1.zhimg.com/v2-cd38920285d125be80b3eb504052c550_b.webp" alt="微信打赏" />
+        </div>
+      </div>
+    </div>
+  </transition>
+</div>
+
+<script>
+  var body = document.body || document.documentElement || window;
+  var vm = new Vue({
+    el: '#appDonate',
+    data: {
+      visible: false,
+      tabActive: 'Alipay',
+      top: 0,
+    },
+    computed: {
+    },
+    mounted() {
+    },
+    methods: {
+      showDialogDrawer() {
+        this.visible = true;
+        // 防止页面滚动，只能让弹框滚动
+        // function getScroll() {
+        //   return {
+        //     left: window.pageXOffset || document.documentElement.scrollLeft || document.body.scrollLeft || 0,
+        //     top: window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0
+        //   };
+        // }
+        this.top = $(document).scrollTop() // or getScroll().top
+        // console.log('aa', $('.main-content'));
+        body.style.cssText = 'overflow: hidden;';
+      },
+      cancelDialogDrawer() {
+        this.visible = false;
+        body.removeAttribute('style');
+        $(document).scrollTop(this.top)
+      },
+      changeTabActive(name) {
+        this.tabActive = name;
+      }
+    },
+    created() {}
+  })
+</script>
+    
+
+    <!-- 分享 -->
+    
+      <!-- https://github.com/overtrue/share.js -->
+<!-- 文章详情页的分享 -->
+<div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+
+<script src="/js/shareJs/social-share.min.js"></script>
+</script>
+
+<style>
+  .social-share {
+    margin: 20px 0;
+  }
+</style>
+
+
+    
+    
+    <!-- 评论 -->
+    <!-- 评论 -->
+
+  <div id="myComment">
+    
+      <div id="gitment-container"></div>
+
+    
+  </div>
+
+<!-- comment script in themes\hexo-theme-bamboo\layout\_partial\scripts\index.ejs -->
+
+
+  </div>
+
+  <!-- 目录 -->
+  <!-- 文章详情页右侧目录 -->
+
+  <div class="toc-aside">
+    <div class="toc-main">
+      <div class="toc-aside-title">
+        <i class="fas fa-list-ul" aria-hidden="true"></i><span>catalog</span>
+        
+          <div class="toc-open-close">catalog</div>
+        
+      </div>
+      <div class="toc-content">
+        <div class="toc"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手机端目录按钮 -->
+  <div id="toc-mobile-btn">
+    <i class="fas fa-list-ul" aria-hidden="true"></i>
+  </div>
+
+
+<script>
+  function closeToc(init) {
+    $(".toc-aside").css({'width': 0, 'padding': 0, 'transition': init ?  'noe' : 'width 0.3s' });
+    $(".toc-content").css({'width': 0});
+    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'none'});
+    $(".main-content").css({'width': '75%', 'margin-left': 'auto', 'margin-right': 'auto',});
+  };
+  function openToc() {
+    $(".main-content").css({'width': '65%', 'margin-right': '10px', 'margin-left': 'calc(35% - 350px)'});
+    $(".toc-aside").css({'width': '300px', 'padding': '0 10px', 'transition': 'width 0.3s'});
+    $(".toc-content").css({'width': '300px'});
+    $(".toc-aside-title span, .toc-aside-title i").css({'display': 'inline-block'});
+  }
+  function openBtnClickFn () {
+    let openOrCloseBtn = $('.toc-aside .toc-aside-title .toc-open-close');
+    let open = eval('' || 'true');
+    openOrCloseBtn.click(function() {
+      if (open) {
+        closeToc();
+        open = false;
+      } else {
+        openToc();
+        open = true;
+      }
+    });
+  };
+  openBtnClickFn();
+  initCloseTocWidth(true);
+
+  function initCloseTocWidth(init) {
+    if (window.innerWidth >= 992) {
+      let isClose = false;
+      isClose && closeToc(init)
+    }
+  }
+
+  document.addEventListener('pjax:complete', function () {
+    $(".toc-aside").css({'transition': 'no'});
+  })
+  document.addEventListener('pjax:complete', function () {
+    openBtnClickFn();
+  })
+  
+</script>
+
+  <!-- 图片放大 Wrap images with fancybox support -->
+  <script src="/js/wrapImage.js"></script>
+</div>
+
+<!-- 文章详情页背景图 -->
+<div id="appBgSwiper" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;z-index: -2;"
+	:style="{'background-color': bgColor ? bgColor : 'transparent'}">
+	<transition-group tag="ul" :name="names">
+		<li v-for='(image,index) in img' :key='index' v-show="index === mark" class="bg-swiper-box">
+			<img :src="image" class="bg-swiper-img no-lazy">
+		</li>
+	</transition-group>
+</div>
+<script>
+	var vm = new Vue({
+		el: '#appBgSwiper',
+		data: {
+			names: '' || 'fade' || 'fade', // translate-fade fade
+			mark: 0,
+			img: [],
+			bgColor: '',
+			time: null
+		},
+		methods: {   //添加方法
+			change(i, m) {
+				if (i > m) {
+					// this.names = 'fade';
+				} else if (i < m) {
+					// this.names = 'fade';
+				} else {
+					return;
+				}
+				this.mark = i;
+			},
+			prev() {
+				// this.names = 'fade';
+				this.mark--;
+				if (this.mark === -1) {
+					this.mark = 3;
+					return
+				}
+			},
+			next() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			autoPlay() {
+				// this.names = 'fade';
+				this.mark++;
+				if (this.mark === this.img.length) {
+					this.mark = 0;
+					return
+				}
+			},
+			play() {
+				let bgImgDelay = '' || '180000'
+				let delay = parseInt(bgImgDelay) || 180000;
+				this.time = setInterval(this.autoPlay, delay);
+			},
+			enter() {
+				clearInterval(this.time);
+			},
+			leave() {
+				this.play();
+			}
+		},
+		created() {
+			this.play()
+		},
+		beforeDestroy() {
+			clearInterval(this.time);
+		},
+		mounted() {
+			let prop = '' || '';
+			let isImg = prop.includes('.bmp') || prop.includes('.jpg') || prop.includes('.png') || prop.includes('.tif') || prop.includes('.gif') || prop.includes('.pcx') || prop.includes('.tga') || prop.includes('.exif') || prop.includes('.fpx') || prop.includes('.psd') || prop.includes('.cdr') || prop.includes('.pcd') || prop.includes('.dxf') || prop.includes('.ufo') || prop.includes('.eps') || prop.includes('.ai') || prop.includes('.raw') || prop.includes('.WMF') || prop.includes('.webp') || prop.includes('.jpeg') || prop.includes('http://') || prop.includes('https://')
+			if (isImg) {
+				let img = prop.split(',');
+				let configRoot = '/'
+				let arrImg = [];
+				img.forEach(el => {
+					var Expression = /http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w- .\/?%&=]*)?/;
+					var objExp = new RegExp(Expression);
+
+					if (objExp.test(el)) {
+						// http or https
+						arrImg.push(el);
+					} else {
+						// 非http or https开头
+						// 本地文件
+						let firstStr = el.charAt(0);
+						if (firstStr == '/') {
+							el = el.substr(1); // 删除第一个字符 '/',因为 configRoot最后一个字符为 /
+						}
+						el = configRoot + el;
+						arrImg.push(el);
+					}
+				})
+				this.img = arrImg;
+			} else {
+				this.bgColor = prop;
+			}
+		}
+	})
+</script>
+
+<style>
+	.bg-swiper-box {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.bg-swiper-img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+
+
+
+  <script>
+  function loadMermaid() {
+    if (document.getElementsByClassName('mermaid').length) {
+      if (window.mermaidJsLoad) mermaid.init()
+      else {
+        loadScript('https://unpkg.com/mermaid/dist/mermaid.min.js').then(() => {
+          window.mermaidJsLoad = true
+          mermaid.initialize({
+            theme: 'default',
+          })
+          if ('true') {
+            mermaid.init();
+          }
+        })
+      }
+    }
+  };
+  document.addEventListener("DOMContentLoaded", function () {
+    loadMermaid();
+  })
+
+  document.addEventListener('pjax:complete', function () {
+    loadMermaid();
+  })
+  
+</script>
+
 
       </main>
     </div>
